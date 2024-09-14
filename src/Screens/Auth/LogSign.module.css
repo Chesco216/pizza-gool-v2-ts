@@ -1,0 +1,9 @@
+.container {
+  background: white;
+}
+
+.image {
+  height: 100vh;
+  width: 50%;
+  box-sizing: border-box;
+}

@@ -1,8 +1,10 @@
+import { Footer } from './components/Footer/Footer'
 import { MealsGrid } from './components/Meals/MealsGrid'
 import { Top } from './components/Top/Top'
 import styles from './Home.module.css'
 
 export const Home = () => {
+
   return (
     <div className={styles.container}>
       <Top/>
@@ -24,6 +26,7 @@ export const Home = () => {
           <button className={styles.contBtn}>Get Notified</button>
         </span>
       </div>
+      <Footer/>
     </div>
   )
 }

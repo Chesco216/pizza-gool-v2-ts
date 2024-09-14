@@ -1,0 +1,16 @@
+.container {
+  background: #F8B908;
+}
+
+.infoContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 0px 30px 0px;
+}
+
+.infoSpanContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 30px 0px 30px 100px;
+}
