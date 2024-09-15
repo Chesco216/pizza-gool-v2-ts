@@ -85,3 +85,32 @@
   background: #F8B908;
   color: #116930;
 }
+
+@media(max-width: 800px) {
+  .land {
+    width: 100%;
+  }
+
+  .landImg {
+    display: none;
+  }
+
+  .contactContainer {
+    flex-direction: column;
+    padding: 20px 20px 20px 20px;
+    box-sizing: border-box;
+  }
+
+  .ccs1 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .ccs2 {
+    width: 100%;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px 20px 20px 20px;
+    box-sizing: border-box;
+  }
+}

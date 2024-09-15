@@ -35,9 +35,18 @@
   border-radius: 15px;
 }
 
-.sgn {
-}
+/* .sgn { */
+/* } */
 
 .lgn {
   background: #F8B908;
+}
+
+@media(max-width: 800px) {
+  .container {
+    padding: 25px 25px 25px 25px;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+  }
 }

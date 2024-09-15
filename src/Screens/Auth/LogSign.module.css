@@ -10,3 +10,17 @@
   width: 50%;
   box-sizing: border-box;
 }
+
+.arrow {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  width: fit-content;
+  height: fit-content;
+}
+
+@media(max-width: 800px) {
+  .image {
+    display: none;
+  }
+}

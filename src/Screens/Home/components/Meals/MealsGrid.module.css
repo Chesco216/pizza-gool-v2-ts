@@ -25,3 +25,14 @@
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 30px;
 }
+
+@media(max-width: 800px) {
+  .title {
+    text-align: center;
+  }
+
+  .cardsContainer {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+}
