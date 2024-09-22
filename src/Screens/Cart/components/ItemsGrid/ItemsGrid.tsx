@@ -13,6 +13,12 @@ export const ItemsGrid = () => {
 
   return (
     <div className={styles.container}>
+      <div className={styles.header}>
+        <label className={styles.item}>Item</label>
+        <label className={styles.cant}>Quantity</label>
+        <label className={styles.subtotal}>Subtotal</label>
+      </div>
+      <hr className={styles.separator}/>
       <Item name={item.name} img={item.img} cant={item.cant} subtotal={item.subtotal}/>
     </div>
   )

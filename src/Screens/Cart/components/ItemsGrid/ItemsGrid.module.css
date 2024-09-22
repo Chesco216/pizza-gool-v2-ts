@@ -7,3 +7,31 @@
   border-radius: 30px;
   box-sizing: border-box;
 }
+
+.header {
+  display: grid;
+  grid-template-columns: 6fr 3fr 3fr 2fr;
+}
+
+.item {
+  display: flex;
+  place-content: center;
+}
+
+.cant {
+  display: flex;
+  justify-content: right;
+}
+
+.subtotal {
+  display: flex;
+  justify-content: right;
+  margin-right: 20px;
+}
+
+.separator {
+  border: 2px solid #b8b8b8;
+  border-radius: 50%;
+  margin: 20px 0px 40px 0px;
+
+}

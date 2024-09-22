@@ -13,7 +13,7 @@ export const Foods = ({food}: {food: string}) => {
         <NavBar/>
       <div className={styles.content}>
         <h1 style={{width: '100%'}}>QUE ES LO QUE SE TE ANTOJA HOY?</h1>
-        <FoodGrid data={foodToSend}/>
+        <FoodGrid data={foodToSend} cat={food}/>
       </div>
     </div>
   )

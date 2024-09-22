@@ -1,4 +1,13 @@
+import { Dispatch, SetStateAction } from 'react'
 import styles from './FoodCard.module.css'
+
+type itemM = {
+  name: string
+  desc: string
+  price: number
+  cat: string
+  id: number
+}
 
 type propType = {
   id: number
@@ -7,12 +16,22 @@ type propType = {
   name: string
   desc: string
   price: number
+  cat: string
+  setItemM: Dispatch<SetStateAction<itemM>>
+  setIsOpen: Dispatch<SetStateAction<boolean>>
 }
 
-export const FoodCard = ({id, available, img, name, desc, price} : propType) => {
+export const FoodCard = ({id, available, img, name, desc, price, cat, setItemM, setIsOpen} : propType) => {
   
   const handleAddCart = () => {
-    console.log('this is the pizza id: ', id)
+    setItemM({
+      name: name,
+      desc: desc,
+      price: price,
+      cat: cat,
+      id: id
+    })
+    setIsOpen(true)
   }
 
   return (

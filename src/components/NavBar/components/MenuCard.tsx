@@ -1,11 +1,10 @@
-import { ReactNode, SetStateAction } from "react"
+import { Dispatch, ReactNode, SetStateAction } from "react"
 import styles from './MenuCard.module.css'
-import { Dispatch } from "@reduxjs/toolkit"
 import { useNavigate } from "react-router-dom"
 
 export const MenuCard = ({ svg, title, alerts, flag, setFlag } 
   : 
-  { svg: ReactNode, title: string, alerts: number, setFlag: Dispatch<SetStateAction<Boolean>>, flag: Boolean }) => {
+  { svg: ReactNode, title: string, alerts: number, setFlag: Dispatch<SetStateAction<boolean>>, flag: Boolean }) => {
 
   const op = localStorage.getItem('menuOp')
   const cn = (op == title) ? styles.contFocused : ''

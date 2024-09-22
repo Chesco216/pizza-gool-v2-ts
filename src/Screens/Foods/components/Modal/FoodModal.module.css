@@ -1,0 +1,94 @@
+.container {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(184, 184, 184, 0.5);
+}
+
+.modalContainer {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: fit-content;
+  padding: 40px 60px 20px 60px;
+  background: white;
+  text-align: center;
+}
+
+.btnContainer {
+  width: 100%;
+  display: flex;
+  justify-content: right;
+}
+
+.btn {
+  width: fit-content;
+  height: fit-content;
+  padding: 8px 15px 8px 15px;
+  font-size: 18px;
+  background: #f15151;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+
+.cantContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.btnSpanContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid #b8b8b8;
+  border-radius: 5px;
+}
+
+.addbtn {
+  width: fit-content;
+  height: fit-content;
+  padding: 8px 15px 8px 15px;
+  font-size: 15px;
+  background: #69f151;
+  color: black;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+}
+
+.plusbtn {
+  width: fit-content;
+  height: fit-content;
+  padding: 4px 10px 4px 10px;
+  font-size: 25px;
+  font-weight: bold;
+  margin-right: 15px;
+  background: #69f151;
+  border: none;
+  border-radius: 5px;
+}
+
+.lessbtn {
+  width: fit-content;
+  height: fit-content;
+  padding: 4px 13px 4px 13px;
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 15px;
+  background: #f15151;
+  border: none;
+  border-radius: 5px;
+}

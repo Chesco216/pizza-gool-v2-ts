@@ -6,7 +6,8 @@ export const Item = ({name, img, cant, subtotal}: {name: string, img: string, ca
       <img src={img} className={styles.image}/>
       <label className={styles.name}>{name}</label>
       <label className={styles.cant}>{cant}</label>
-      <label className={styles.subtotal}>{subtotal}</label>
+      <label className={styles.subtotal}>{subtotal} $</label>
+      <button className={styles.delete}>remove</button>
     </div>
   )
 }
