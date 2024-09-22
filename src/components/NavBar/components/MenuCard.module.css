@@ -1,0 +1,33 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  grid-gap: 20px;
+  padding: 15px 10px 15px 15px;
+  align-items: center;
+  box-sizing: border-box;
+  color: #707070;
+  border-radius: 15px;
+  margin: 15px 0px 15px 0px;
+}
+
+.container:hover {
+  background: #d5d5d5;
+  color: black;
+}
+
+.contFocused {
+  background: #d5d5d5;
+  color: black;
+}
+
+.alerts {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #F8B908;
+  color: black;
+  border-radius: 10px;
+  box-sizing: border-box;
+}

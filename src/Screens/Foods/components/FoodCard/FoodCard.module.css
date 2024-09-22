@@ -1,0 +1,63 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  border: 1px solid #c4c4c4;
+  padding: 25px 15px 15px 15px;
+  align-items: center;
+}
+
+.avaCont {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: semi-bold;
+  margin: 20px 0px 15px 0px;
+}
+
+.desc {
+  font-size: 12px;
+  margin-bottom: 40px;
+}
+
+.available {
+  padding: 8px 8px 8px 8px;
+  font-size: 16px;
+  border-radius: 5px;
+  color: #707070;
+}
+
+.img {
+  width: 80%;
+}
+
+.price {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.btn {
+  color: #06E775;
+  font-size: 15px;
+  font-weight: medium;
+  background: none;
+  border: none;
+  transition: ease-in() 400ms;
+}
+
+.btn:hover {
+  transition: ease-in() 400ms;
+}
+
+.priceSection {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
