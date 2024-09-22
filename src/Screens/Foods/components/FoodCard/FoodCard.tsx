@@ -7,6 +7,7 @@ type itemM = {
   price: number
   cat: string
   id: number
+  img: string
 }
 
 type propType = {
@@ -29,7 +30,8 @@ export const FoodCard = ({id, available, img, name, desc, price, cat, setItemM, 
       desc: desc,
       price: price,
       cat: cat,
-      id: id
+      id: id,
+      img: img
     })
     setIsOpen(true)
   }

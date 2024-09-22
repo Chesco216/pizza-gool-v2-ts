@@ -4,6 +4,7 @@ import { useAppDispatch } from '../../../Auth/hooks/useStore'
 import { add_to_cart } from '../../../../store/cartSlice'
 
 type itemType = {
+  img: string
   name: string
   desc: string
   price: number
@@ -19,17 +20,19 @@ interface propsType {
 
 export const FoodModal = ({item, setIsOpen} : propsType) => {
 
-  const [cant, setCant] = useState(0)
+  const [cant, setCant] = useState(1)
 
   const dispatch = useAppDispatch()
 
-  //TODO: set cartSlice not just ids but all props needed
-
   const handleCart = () => {
     dispatch(add_to_cart({
-      cat: item.cat,
-      id: item.id
+      id: item.id,
+      img: item.img,
+      name: item.name,
+      cant: cant,
+      subtotal: cant * item.price
     }))
+    setIsOpen(false)
   }
 
   return (

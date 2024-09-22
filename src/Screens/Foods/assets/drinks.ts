@@ -2,7 +2,7 @@ import { foodArrType } from "./type";
 
 export const drinks: Array<foodArrType> = [
   {
-    id: 1,
+    id: 21,
     available: true,
     img: 'https://png.pngtree.com/png-clipart/20230417/original/pngtree-gourmet-pizza-cartoon-png-image_9061095.png',
     name: 'Mexicana',
@@ -10,7 +10,7 @@ export const drinks: Array<foodArrType> = [
     price: 45
   },
   {
-    id: 2,
+    id: 22,
     available: true,
     img: 'https://png.pngtree.com/png-clipart/20230417/original/pngtree-gourmet-pizza-cartoon-png-image_9061095.png',
     name: 'Parrillera',
@@ -18,7 +18,7 @@ export const drinks: Array<foodArrType> = [
     price: 45
   },
   {
-    id: 3,
+    id: 23,
     available: true,
     img: 'https://png.pngtree.com/png-clipart/20230417/original/pngtree-gourmet-pizza-cartoon-png-image_9061095.png',
     name: 'Hawaiana',
@@ -26,7 +26,7 @@ export const drinks: Array<foodArrType> = [
     price: 45
   },
   {
-    id: 4,
+    id: 24,
     available: true,
     img: 'https://png.pngtree.com/png-clipart/20230417/original/pngtree-gourmet-pizza-cartoon-png-image_9061095.png',
     name: 'Vegetariana',
@@ -34,7 +34,7 @@ export const drinks: Array<foodArrType> = [
     price: 45
   },
   {
-    id: 5,
+    id: 25,
     available: true,
     img: 'https://png.pngtree.com/png-clipart/20230417/original/pngtree-gourmet-pizza-cartoon-png-image_9061095.png',
     name: 'Suprema',
@@ -42,7 +42,7 @@ export const drinks: Array<foodArrType> = [
     price: 45
   },
   {
-    id: 6,
+    id: 26,
     available: true,
     img: 'https://png.pngtree.com/png-clipart/20230417/original/pngtree-gourmet-pizza-cartoon-png-image_9061095.png',
     name: 'Boliviana',
